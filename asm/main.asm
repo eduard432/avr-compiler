@@ -1,0 +1,8 @@
+.EQU DS = 23
+.DEF CONT = R17
+LDI CONT, DS
+RJMP salto
+LDI R18, 5
+LDI R19, 5
+salto:
+LDI R16, 7
